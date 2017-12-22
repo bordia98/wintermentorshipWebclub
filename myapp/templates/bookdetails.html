@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book list</title>
+</head>
+<body>
+<h2><center>List of Books</center></h2>
+{% for bookobj in book %}
+    <ol><h4> {{bookobj.book_name}}</h4></ol>
+{% endfor %}
+</body>
+</html>
